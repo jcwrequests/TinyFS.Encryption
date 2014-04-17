@@ -1,0 +1,12 @@
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\TinyFS.Encryption.Tests.dll
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\TinyFS.Encryption.Tests.pdb
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\TinyFS.Encryption.Tests.xml
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\TinyFS.dll
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.vbprojResolveAssemblyReference.cache
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.Resources.resources
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.vbproj.GenerateResource.Cache
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.dll
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.xml
+C:\Users\wydev\Documents\Visual Studio 2012\Projects\TinyFS.Encryption\TinyFS.Encryption.Tests\obj\Debug\TinyFS.Encryption.Tests.pdb
