@@ -46,7 +46,7 @@ Imports System.Runtime.InteropServices
     End Sub
 
     <TestMethod>
-    Public Sub ENCRPTION_AN_IN_MEMEORY_BYTE_ARRAY_USING_PASSWORD()
+    Public Sub ENCRYPTION_AN_IN_MEMEORY_BYTE_ARRAY_USING_PASSWORD()
         Dim hashProvider As New SHA256Managed()
         Dim password As String = "PASSWORD"
         Dim user As String = "username"
