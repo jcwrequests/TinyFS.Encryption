@@ -104,6 +104,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="TinyFS.Encryption.Tests.vb" />
+    <Compile Include="ConfigTests.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

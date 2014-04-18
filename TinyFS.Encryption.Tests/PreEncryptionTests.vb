@@ -136,6 +136,7 @@ End Class
 Public Class AESEncryption
     Implements IDecrypt
     Implements IEncrypt
+    Implements IEncryptor
 
     Private iv As New Security.SecureString
     Private key As New Security.SecureString
@@ -145,7 +146,7 @@ Public Class AESEncryption
         key.ToList.ForEach(Sub(b) Me.key.AppendChar(Chr(b)))
         Me.key.MakeReadOnly()
     End Sub
-    Public Function Encrypt(source() As Byte) As Byte() Implements IEncrypt.Encrypt
+    Public Function Encrypt(source() As Byte) As Byte() Implements IEncrypt.Encrypt, IEncryptor.Encrypt
         Dim result() As Byte
         Using aesProvider As New AesCryptoServiceProvider()
 
@@ -158,7 +159,7 @@ Public Class AESEncryption
 
         Return result
     End Function
-    Public Function Decrypt(source() As Byte) As Byte() Implements IDecrypt.Decrypt
+    Public Function Decrypt(source() As Byte) As Byte() Implements IDecrypt.Decrypt, IEncryptor.Decrypt
         Dim result() As Byte
         Using aesProvider As New AesCryptoServiceProvider()
 
