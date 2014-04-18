@@ -100,6 +100,8 @@ Imports System.Runtime.InteropServices
         Assert.IsTrue(source.Equals(decryptedString))
 
     End Sub
+
+   
 End Class
 
 Public Class KeyGenerator
@@ -146,6 +148,7 @@ Public Class AESEncryption
     Public Function Encrypt(source() As Byte) As Byte() Implements IEncrypt.Encrypt
         Dim result() As Byte
         Using aesProvider As New AesCryptoServiceProvider()
+
             Dim _iv = ExtractString(iv).ToCharArray().Select(Function(v) CType(Asc(v), Byte)).ToArray()
             Dim _key = ExtractString(key).ToCharArray().Select(Function(v) CType(Asc(v), Byte)).ToArray()
 
@@ -158,6 +161,7 @@ Public Class AESEncryption
     Public Function Decrypt(source() As Byte) As Byte() Implements IDecrypt.Decrypt
         Dim result() As Byte
         Using aesProvider As New AesCryptoServiceProvider()
+
             Dim _iv = ExtractString(iv).ToCharArray().Select(Function(v) CType(Asc(v), Byte)).ToArray()
             Dim _key = ExtractString(key).ToCharArray().Select(Function(v) CType(Asc(v), Byte)).ToArray()
 
